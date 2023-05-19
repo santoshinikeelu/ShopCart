@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Master</title>
+</head>
+<body>
+  <h1>Product Master</h1>
+
+  
+    <h2>Add Product</h2>
+    <form id="addProductForm">
+      <label for="productName">Product Name:</label>
+      <input type="text" id="productName" name="productName" required>
+
+      <label for="categoryId">Category:</label>
+      <input type="text" id="categoryId" name="categoryId" required>
+      
+        
+      <button type="submit">Add</button>
+    </form>
+  
+
+  
+    <h2>Product List</h2>
+    <table >
+      <thead>
+        <tr>
+          <th>Product ID</th>
+          <th>Product Name</th>
+          <th>Category Name</th>
+         
+        </tr>
+      </thead>
+      <tbody id="productList">
+      </tbody>
+    </table>
+  
+
+  <script src="../js/products.js">
+    
+  </script>
+</body>
+</html>
